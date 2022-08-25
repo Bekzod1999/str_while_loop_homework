@@ -8,17 +8,16 @@ def main(s):
         int: return answer
     """
 
-    j=0
     i=0
     k = 0
-    t = 'euioaEUIOA'
+    s = s.lower()
+    
     while i < len(s):
-        k=0
-        while k < len(t):
-            if s[i] == t[k]:
-                j +=1
-            k += 1
-        i+=1
-    return len(s) - j
-x=main('CodeschoolUz')
+        if s[i].isalpha():
+            if s[i] != 'a' and s[i] != 'e' and s[i] != 'i' and s[i] != 'o' and s[i] != 'u':
+                k += 1
+        i += 1
+    return k
+
+x=main('Co desc,hoolUz')
 print(x)
