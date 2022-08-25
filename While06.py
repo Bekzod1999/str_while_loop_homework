@@ -11,7 +11,8 @@ def main(s):
 
     j=0
     i=0
-    t = string.ascii_letters
+    k = 0
+    t = 'euioaEUIOA'
     while i < len(s):
         k=0
         while k < len(t):
@@ -19,6 +20,6 @@ def main(s):
                 j +=1
             k += 1
         i+=1
-    return j
-x=main('HyuO123')
+    return len(s) - j
+x=main('CodeschoolUz')
 print(x)
