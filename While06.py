@@ -11,7 +11,7 @@ def main(s):
     j=0
     i=0
     k = 0
-    t = 'euioa'
+    t = 'euioaEUIOA'
     while i < len(s):
         k=0
         while k < len(t):
