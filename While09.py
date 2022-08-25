@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    j=0
+    i=0
+    while i < len(s):
+        j += int(s[i])
+        i += 1
+    return j
+x=main('12')
+print(x)
