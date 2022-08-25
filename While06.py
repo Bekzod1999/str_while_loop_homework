@@ -1,4 +1,3 @@
-import string
 def main(s):
     """
     A variable of type str is given. Find and return how many consonant letters there are.
